@@ -1,0 +1,17 @@
+.header-section {
+    width: 1440px;
+    height: 1000px;
+
+    background-image: url("../images/header-img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-color: green;
+
+}
+
+.header-section .header {
+
+    margin-left: 640px;
+}
