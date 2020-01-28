@@ -28,3 +28,11 @@
     font-style: normal;
     font-weight: normal;
 }
+
+.header-typo {
+    font-family: "Montserrat Regular";
+    color: #afc67b;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+}
