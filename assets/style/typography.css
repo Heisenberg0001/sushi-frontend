@@ -33,6 +33,42 @@
     font-family: "Montserrat Regular";
     color: #afc67b;
     font-size: 30px;
-    font-style: normal;
     text-transform: uppercase;
+
+    cursor: pointer;
+}
+.montserrat-regular-light {
+    font-family: "Montserrat Regular";
+    color: #afc67b;
+}
+.montserrat-bold-dark {
+    font-family: "Montserrat Bold";
+    color: #9baf6d;
+}
+.montserrat-light-white {
+    font-family: "Montserrat Light";
+    color: #ffffff;
+}
+.montserrat-light {
+    font-family: "Montserrat Light";
+    color: #eaeaea;
+}
+.good-dog-cool {
+    font-family: "GoodDog Cool";
+    color: #eaeaea;
+
+}
+.good-dog-cool-spec {
+    font-family: "GoodDog Cool";
+    color: #afc67b;
+}
+.new-header {
+    font-family: "GoodDog Cool";
+    color: #eaeaea;
+    font-size: 30px;
+}
+.new-info {
+    font-family: "Montserrat Light";
+    color: #eaeaea;
+    font-size: 25px;
 }

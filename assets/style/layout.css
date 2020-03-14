@@ -8,3 +8,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+.new-mb28 {
+    margin-bottom: 28px;
+}
+.new-mb35 {
+    margin-bottom: 35px;
+}
+.tradition-img {
+    width: 270px;
+    height: 270px;
+}
+.tradition-description {
+    width: 270px;
+    height: 272px;
+}
+.make-flex-row {
+    display: flex;
+    flex-direction: row;
+}
