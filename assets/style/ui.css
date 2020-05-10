@@ -8,7 +8,6 @@
     width: 100%;
     height: 1300px;
 
-    background-size: cover;
 }
 .first-section .header-section {
     margin-bottom: 80px;
@@ -92,33 +91,299 @@
 
     margin-bottom: 90px;
     background-color: rgba(78, 83, 66, 0.7);
+
 }
 .new-things .new-things-pack {
     width: 1100px;
     height: 260px;
 
+    margin-top: 55px;
     margin-left: 370px;
+    margin-bottom: 200px;
 
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .tradition {
     width: 1080px;
-    height: 1030px;
+    height: 1020px;
 
     margin-left: 420px;
+    margin-bottom: 90px;
+
 
     background-color: rgba(78, 83, 66, 0.7);
+    background-image: url("../logos/back-left.png");
+
 }
 .tradition .tradition-header {
     margin-top: 67px;
+
+    height: 210px;
+    width: 100%;
 }
-.tradition .tradition-header .tradition-header-txt-one {
-    font-size: 28px;
+
+.tradition .tradition-header .tradition-header-txt{
+    width: 335px;
+    height: 80px;
+
+    text-align: center;
+
+    margin: auto;
 }
-.tradition .tradition-header .tradition-header-txt-two {
-    font-size: 28px;
+
+.tradition .tradition-header .tradition-header-txt .tradition-header-txt-one {
+    font-size: 38px;
+    margin: 3px;
+}
+
+.tradition .tradition-header .tradition-header-txt .tradition-header-txt-two {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.tradition .tradition-body {
+    width: 100%;
+
+    height: 870px;
+}
+
+.simple-things {
+    height: 400px;
+    width: 100%;
+
+    background-color: rgba(78, 83, 66, 0.7);
+
+}
+
+.simple-things .simple-things-divs {
+    width: 690px;
+    height: 200px;
+
+    margin: auto;
+
+}
+
+.simple-things .simple-things-divs .simple-things-header {
+    margin-bottom: 35px;
+}
+
+.simple-things .simple-things-divs .simple-things-header .simple-things-header-txt {
+    font-size: 43px;
+
+}
+
+.simple-things .simple-things-divs .simple-things-description {
+    margin-bottom: 40px;
+}
+
+.simple-things .simple-things-divs .simple-things-description .simple-things-description-txt {
+    font-family: "MyraidPro Regular";
+    font-size: 19px;
+    color: #dcdcdb;
+}
+
+.discover {
+    background: url("../images/discover.png") center center no-repeat;
+    background-size: cover;
+
+
+    height: 1734px;
+    width: 100%;
+
+}
+
+.discover .discover-background {
+    width: 100%;
+    height: 710px;
+
+    margin-top: 240px;
+
+    background-color: rgba(78, 83, 66, 0.9);
+
+}
+
+.discover .discover-background .discover-divs {
+
+    width: 1500px;
+    height: 650px;
+
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.discover .discover-background .discover-divs .discover-header {
+
+    width: 400px;
+    height: 122px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.discover .discover-background .discover-divs .discover-header .discover-header-txt-one {
+    color: #e7e7e7;
+    font-size: 70px;
+}
+
+.discover .discover-background .discover-divs .discover-header .discover-header-txt-two {
+    color: #e7e7e7;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.discover .discover-background .discover-divs .discover-body {
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 100%;
+    height: 1189px;
+
+    background: red;
+}
+
+.book .book-header {
+    width: 235px;
+
+    border: solid black 1px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book .book-header .book-header-txt {
+    font-size: 80px;
+}
+
+.book .book-body {
+    width: 1400px;
+
+    border: solid black 1px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.book .submit {
+
+}
+
+.book .book-img-div img {
+    width: 100%;
+    height: 1000px;
+}
+
+.new-menu {
+    width: 100%;
+    height: 900px;
+
+    background-color: rgba(78, 83, 66, 0.7);
+}
+
+.new-menu .new-menu-header {
+    width: 410px;
+    height: 130px;
+
+    margin: 50px auto 70px;
+}
+
+.new-menu .new-menu-header .new-menu-header-txt-first {
+    text-align: center;
+    font-size: 75px;
+}
+.new-menu .new-menu-header .new-menu-header-txt-second {
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #e7e7e7;
+    font-size: 45px;
+}
+
+.new-menu .new-menu-body {
+    width: 1091px;
+    height: 502px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.new-menu .new-menu-body .food {
+    margin-right: 35px;
+}
+.new-menu .new-menu-body .spices {
+    margin-right: 35px;
+}
+
+.li-stew {
+    width: 100%;
+    height: 345px;
+}
+
+.li-stew .stripes {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.li-stew .li-stew-words {
+    width: 690px;
+    height: 115px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+}
+
+.li-stew .li-stew-words .li-stew-words-txt {
+    font-size: 21px;
+}
+
+.li-stew .li-stew-words .li-stew-words-by {
+    font-size: 35px;
+}
+
+.li-stew .communication-section {
+
+    width: 335px;
+    height: 55px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    justify-content: space-between;
+
+}
+
+.about {
+    background-color: rgba(78, 83, 66, 0.7);
+
+    color: #e7e7e7;
+    height: 357px;
+    width: 100%;
+}
+
+.about .about-divs {
+    width: 850px;
+    height: 175px;
+
+    justify-content: space-between;
+}
+
+.about .about-divs .about-main{
+    width: 340px;
+}
+
+.about .about-divs .about-main .about-main-header .about-main-header-txt {
+    font-size: 30px;
     text-transform: uppercase;
 }

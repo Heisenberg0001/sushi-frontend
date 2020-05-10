@@ -29,46 +29,108 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'MyraidPro Regular';
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .header-typo {
-    font-family: "Montserrat Regular";
+    font-family: "Montserrat Regular", serif;
     color: #afc67b;
     font-size: 30px;
     text-transform: uppercase;
 
     cursor: pointer;
 }
+.montserrat-regular {
+    font-family: "Montserrat Regular", serif;
+}
+.montserrat-bold {
+    font-family: "Montserrat Bold", serif;
+}
 .montserrat-regular-light {
-    font-family: "Montserrat Regular";
+    font-family: "Montserrat Regular", serif;
     color: #afc67b;
 }
 .montserrat-bold-dark {
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat Bold", serif;
     color: #9baf6d;
 }
 .montserrat-light-white {
-    font-family: "Montserrat Light";
+    font-family: "Montserrat Light", serif;
     color: #ffffff;
 }
 .montserrat-light {
-    font-family: "Montserrat Light";
+    font-family: "Montserrat Light", serif;
     color: #eaeaea;
 }
 .good-dog-cool {
-    font-family: "GoodDog Cool";
+    font-family: "GoodDog Cool", serif;
     color: #eaeaea;
 
 }
 .good-dog-cool-spec {
-    font-family: "GoodDog Cool";
+    font-family: "GoodDog Cool", serif;
     color: #afc67b;
 }
+.good-dog-cool-trad-price{
+    font-family: "GoodDog Cool", serif;
+    color: #e8e8e8;
+    font-size: 25px;
+}
 .new-header {
-    font-family: "GoodDog Cool";
+    font-family: "GoodDog Cool", serif;
     color: #eaeaea;
     font-size: 30px;
 }
 .new-info {
-    font-family: "Montserrat Light";
+    font-family: "Montserrat Light", serif;
     color: #eaeaea;
     font-size: 25px;
 }
+.tradition-icon-header {
+    font-size: 31px;
+}
+
+.discover-icon-desc-hearder {
+    font-family: "GoodDog Cool", serif;
+    color: #e7e7e7;
+    font-size: 25px;
+}
+
+.discover-icon-desc {
+    font-family: "Montserrat Regular", serif;
+    color: #e7e7e7;
+    font-size: 15px;
+}
+
+.discover-span {
+    font-family: "GoodDog Cool", serif;
+    color: #e7e7e7;
+    font-size: 25px;
+}
+.new-montserrat-bold-dark-headerF{
+    font-family: "Montserrat Bold", serif;
+    color: #555555;
+}
+.new-montserrat-bold-dark-headerS{
+    font-family: "Montserrat Bold", serif;
+    font-size: 20px;
+    color: #4f4e4e;
+
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.new-montserrat-regular-dec {
+    font-family: "Montserrat Regular";
+    color: #4f4e4e;
+}
+
+
+
+
+
+
