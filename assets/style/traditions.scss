@@ -1,0 +1,199 @@
+@import "colors";
+
+.page__traditions {
+  width: 100%;
+}
+.traditions {
+
+  .traditions__container {
+    padding: 90px 0 90px 0;
+
+    .traditions__content {
+      max-width: 1400px;
+
+      padding: 67px 0 0 0;
+
+      background: $background_green;
+
+      .traditions__header {
+        text-align: center;
+
+        font-size: 45.56px;
+        line-height: calc((60.59 / 45.56) * 100%);
+
+        span {
+          text-transform: uppercase;
+
+          font-size: 41.87px;
+          line-height: calc((62.82 / 41.87) * 100%);
+        }
+      }
+      .traditions__list {
+        margin: 66px 0 0 0;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        .traditions__row {
+
+          display: flex;
+          flex-wrap: wrap;
+
+          .traditions__item {
+            max-width: 700px;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .traditions__icon {
+              width: 350px;
+
+              img {
+                width: 100%;
+              }
+            }
+            .traditions__info {
+              width: 350px;
+
+              padding: 0 60px;
+
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+
+              text-align: center;
+
+              &>:not(:last-child) {
+                margin: 0 0 25px 0;
+              }
+
+              .traditions__title {}
+              .traditions__description {}
+              .traditions__price {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .page__traditions {
+    width: 100%;
+  }
+  .traditions {
+
+    .traditions__container {
+      display: flex;
+      justify-content: center;
+
+      .traditions__content {
+        max-width: 800px;
+
+
+        .traditions__header {}
+        .traditions__list {
+
+          .traditions__row {
+            justify-content: center;
+
+            .traditions__item {
+              margin: 0 0 30px 0;
+              padding: 0 0 30px 0;
+
+              border-bottom: 5px dotted $light_green;
+
+              .traditions__icon {}
+              .traditions__info {
+
+                .traditions__title {}
+                .traditions__description {}
+                .traditions__price {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 899px) {
+  .page__traditions {
+  }
+  .traditions {
+
+    .traditions__container {
+
+      .traditions__content {
+        max-width: 400px;
+
+
+        .traditions__header {}
+        .traditions__list {
+
+          .traditions__row {
+
+            &:nth-child(2) {
+
+              .traditions__item {
+
+                .traditions__icon {
+
+                  margin: 20px 0 0 0;
+                }
+              }
+            }
+            .traditions__item {
+
+              .traditions__icon {
+                width: 270px;
+
+                margin: 0 0 20px 0;
+              }
+              .traditions__info {
+                width: 270px;
+
+                .traditions__title {}
+                .traditions__description {}
+                .traditions__price {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 459px) {
+  .page__traditions {
+  }
+  .traditions {
+
+    .traditions__container {
+
+      .traditions__content {
+        max-width: 290px;
+
+
+        .traditions__header {}
+        .traditions__list {
+
+          .traditions__row {
+
+            .traditions__item {
+
+              .traditions__icon {}
+              .traditions__info {
+
+                .traditions__title {}
+                .traditions__description {}
+                .traditions__price {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

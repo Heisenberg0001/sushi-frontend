@@ -1,0 +1,166 @@
+@import "colors";
+
+.page__booking {}
+.booking {
+  position: relative;
+
+  &::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/assets/images/booking/after-booking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+  .booking__container {
+    padding: 60px 0 70px 0;
+
+    color: white;
+
+    .booking__title {
+      margin: 0 0 45px 0;
+
+      font-size: 77.11px;
+      line-height: calc((80 / 77.11) * 100%);
+
+      text-align: center;
+
+      color: inherit;
+    }
+    .booking__body {
+
+      .booking__form {
+
+        .booking__list {
+          font-weight: 700;
+
+          .booking__row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            margin: 0 -15px 43px 0;
+
+            .booking__item {
+
+              flex: 0 0 250px;
+
+              margin: 0 15px 20px 0;
+
+
+              display: flex;
+              flex-direction: column;
+
+              &:not(:last-child) {}
+              .booking__item-title {
+                margin: 0 0 15px 0;
+              }
+              .booking__input {
+                width: inherit;
+                height: 35px;
+
+                padding: 5px;
+
+                border: 2px solid white;
+                border-radius: 8px;
+
+                color: white;
+
+                font-family: inherit;
+                font-size: 16.67px;
+
+                &::placeholder {
+                  color: white;
+                }
+              }
+              select.booking__input {
+                background-color: inherit;
+
+                & option {
+                  background-color: $grey;
+                }
+              }
+              .booking__people {}
+              .booking__date {
+
+                &::-webkit-calendar-picker-indicator {
+                  filter: invert(1);
+                }
+              }
+              .booking__time {
+                &::-webkit-calendar-picker-indicator {
+                  filter: invert(1);
+                }
+              }
+              .booking__name {}
+              .booking__email {}
+              .booking__phone {}
+            }
+          }
+        }
+        .booking__submit {
+          width: 250px;
+          height: 35px;
+
+          display: block;
+          margin: 0 auto;
+
+          font-family: "Montserrat SemiBold", sans-serif;
+          font-size: 16.67px;
+          font-weight: 700;
+
+          color: inherit;
+
+          border: 2px solid white;
+          border-radius: 8px;
+
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 574px) {
+  .page__booking {}
+  .booking {
+
+    .booking__container {
+
+      .booking__title {}
+      .booking__body {
+
+        .booking__form {
+
+          .booking__list {
+            margin: 0 0 40px 0;
+
+            .booking__row {
+              flex: 1 1 auto;
+              justify-content: center;
+
+              margin-bottom: 0;
+
+              .booking__item {
+
+                &:not(:last-child) {}
+                .booking__item-title {}
+                .booking__people {}
+                .booking__date {}
+                .booking__time {}
+                .booking__name {}
+                .booking__email {}
+                .booking__phone {}
+              }
+            }
+          }
+        }
+        .booking__submit {}
+      }
+    }
+  }
+}

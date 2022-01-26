@@ -1,0 +1,83 @@
+@import "colors";
+
+.page__cooking {
+  width: 100%;
+  height: 490px;
+}
+.cooking {
+  position: relative;
+
+  &:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 740px;
+    height: 100%;
+
+    background-image: url("/assets/images/cooking/cooking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cooking__container {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+    .cooking__content {
+      width: 526px;
+
+      margin: 170px 0 0 0;
+
+      .cooking__title {}
+      .cooking__description {
+        margin: 48px 0 0 0;
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .page__cooking {
+  }
+  .cooking {
+
+    &:before {
+      opacity: 0.4;
+    }
+    .cooking__container {
+
+      .cooking__content {
+
+        .cooking__title {
+          font-size: 35px;
+        }
+        .cooking__description {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 469px) {
+  .page__cooking {
+  }
+  .cooking {
+
+    &:before {}
+
+    .cooking__container {
+
+      .cooking__content {
+        margin: 100px 0 0 0;
+
+        .cooking__title {}
+
+        .cooking__description {}
+      }
+    }
+  }
+}

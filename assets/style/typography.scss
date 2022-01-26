@@ -1,0 +1,77 @@
+@import "colors";
+
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("../fonts/Montserrat-Light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GoodDog Cool";
+    src: url("../fonts/GoodDog-cool.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GoodDog Plain";
+    src: url("../fonts/GoodDog-plain.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MyraidPro Regular';
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+    font-style: normal;
+    font-weight: normal;
+}
+._cool-title {
+    font-family: "GoodDog Cool", sans-serif;
+    font-size: 29.17px;
+
+    color: $light_green;
+}
+._montserrat-light {
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 18.75px;
+
+    line-height: calc((29.17 / 18.75) * 100%);
+
+    color: #ffffff;
+}
+._montserrat-regular {
+    font-family: "Montserrat Regular", serif;
+    font-size: 16.67px;
+}
+._montserrat-semi-bold {
+    font-family: "Montserrat SemiBold", serif;
+    font-size: 16.67px;
+}
+._myraidPro {
+    font-family: "MyraidPro Regular", serif;
+    font-size: 16.67px;
+}
+
+
+
+
+
+

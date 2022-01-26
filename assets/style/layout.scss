@@ -1,0 +1,15 @@
+@import "colors";
+
+body {
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 16.67px;
+
+    color: $light_green;
+
+    background-color: $grey;
+}
+._container {
+    max-width: 1400px;
+    padding: 0 30px;
+    margin: 0 auto;
+}

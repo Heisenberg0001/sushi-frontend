@@ -1,0 +1,65 @@
+@import "colors";
+
+.page__simple {
+  width: 100%;
+
+  position: relative;
+
+  &:before {
+    position: absolute;
+
+    display: block;
+    content: ' ';
+
+    width: 100%;
+    height: 100%;
+
+    background: $background_green;
+  }
+}
+.simple {
+
+  &:before {
+
+  }
+  .simple__container {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    .simple__content {
+      max-width: 685px;
+
+      padding: 115px 0 100px 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      text-align: center;
+
+      .simple__title {
+        font-size: 41.71px;
+        line-height: calc((65 / 41.71) * 100%);
+      }
+      .simple__description {
+        margin: 36px 0 0 0;
+
+        font-size: 20.85px;
+        line-height: calc((30 / 20.85) * 100%);
+
+        color: $special_white_alt2;
+      }
+      .simple__icons {
+        margin: 50px 0 0 0;
+
+        display: flex;
+
+        & > :not(:last-child) {
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+  }
+}

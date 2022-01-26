@@ -1,0 +1,146 @@
+@import "colors";
+
+.page__parlour {
+  max-width: 100%;
+  height: 1000px;
+}
+.parlour {
+  position: relative;
+
+  text-transform: uppercase;
+
+  &:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/assets/images/parlour/parlour.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+  .parlour__container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .parlour__content {
+      min-width: 320px;
+      padding: 200px 0 0 0;
+
+      display: flex;
+      flex-direction: column;
+
+      .parlour__image {}
+      .parlour__text {
+        margin: 110px 0 145px 0;
+
+        color: $light_green;
+
+        font-size: 56.8px;
+        line-height: calc((70 / 56.8) * 100%);
+
+        span {
+          font-family: "Montserrat SemiBold", sans-serif;
+          font-size: 78.25px;
+        }
+      }
+      .parlour__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        max-width: 388px;
+        height: 92px;
+
+        background-color: $background_green;
+
+        .button__text {
+          font-size: 50px;
+          color: $light_green;
+
+          text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+
+          transition: text-decoration-color 200ms ease 100ms ;
+
+          &:hover {
+            text-decoration-color: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .page__parlour {
+    height: 900px;
+  }
+  .parlour {
+
+    &:before {}
+    .parlour__container {
+
+
+      .parlour__content {
+        align-items: center;
+
+        .parlour__image {
+
+          img {}
+        }
+        .parlour__text {
+          span {}
+        }
+        .parlour__button {
+
+          .button__text {}
+        }
+      }
+    }
+  }
+}
+@media (max-width: 540px) {
+  .page__parlour {}
+  .parlour {
+
+    &:before {}
+    .parlour__container {
+      align-items: center;
+
+
+      .parlour__content {
+        max-width: 320px;
+
+        .parlour__image {
+
+          img {}
+        }
+        .parlour__text {
+          margin: 75px 0 100px 0;
+
+          font-size: 49px;
+
+          text-align: center;
+
+          span {
+            font-size: 68px;
+          }
+        }
+        .parlour__button {
+
+          .button__text {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}

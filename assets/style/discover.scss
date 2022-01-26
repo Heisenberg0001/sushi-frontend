@@ -1,0 +1,187 @@
+@import "colors";
+
+.page__discover {
+  width: 100%;
+  height: 1900px;
+
+  position: relative;
+
+  &:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/assets/images/discover/discover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+}
+.discover {
+
+  .discover__colored-background {
+    width: 100%;
+    min-height: 700px;
+
+    position: relative;
+
+    top: 240px;
+
+    background-color: rgba(62, 65, 54, 0.98);
+
+    .discover__container {
+      position: relative;
+
+      z-index: 1;
+
+      color: $special_white;
+
+      .discover__content {
+        width: 100%;
+        padding: 60px 0 0 0;
+
+        .discover__header {
+          text-align: center;
+
+          font-size: 70.83px;
+          line-height: calc((73 / 70.83) * 100%);
+
+          color:inherit;
+
+          span {
+            font-size: 45.83px;
+            line-height: calc((48 / 45.83) * 100%);
+
+            text-transform: uppercase;
+          }
+        }
+        .discover__list {
+          margin: 40px 0 0 0;
+
+          display: flex;
+          flex-direction: column;
+
+          .discover__row {
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+
+            flex-wrap: wrap;
+
+            margin: 0 0 55px 0;
+
+            .discover__item {
+              position: relative;
+
+              display: flex;
+              justify-content: space-between;
+
+
+              .discover__links {
+
+                min-width: 81px;
+                min-height: 81px;
+
+                top: 0;
+                left: 0;
+
+                position: relative;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .discover__background {
+                  width: inherit;
+                  height: inherit;
+
+                  position: absolute;
+                }
+                .discover__foreground {
+                  position: absolute;
+                }
+              }
+              .discover__item-info {
+                margin: 0 0 0 15px;
+
+                max-width: 350px;
+
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .discover__title {
+                  color: inherit;
+
+                  font-size: 25px;
+                  line-height: calc((30 / 25) * 100%);
+                }
+                .discover__description {
+                  margin: 14px 0 0 0;
+
+                  font-size: 16.7px;
+                  line-height: calc((19 / 16.7) * 100%);
+
+                  .discover__price {
+                    font-size: 20.83px;
+                    color: inherit;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 951px) {
+  .page__discover {
+
+    &:before {}
+  }
+  .discover {
+
+    .discover__colored-background {
+      .discover__container {
+
+        .discover__content {
+
+
+          .discover__header {
+
+            span {}
+          }
+          .discover__list {
+
+            .discover__row {
+
+              justify-content: center;
+
+              .discover__item {
+
+                &:not(:last-child) {
+                  margin: 0 0 55px 0;
+                }
+                .discover__logo {
+
+                  .discover__background {}
+                  .discover__foreground {}
+                }
+                .discover__title {}
+                .discover__description {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

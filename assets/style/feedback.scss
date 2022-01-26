@@ -1,0 +1,60 @@
+@import "colors";
+
+.page__feedback {
+  width: 100%;
+}
+.feedback {
+
+  .feedback__container {
+    max-width: 690px;
+
+    margin: 56px auto 48px auto;
+
+    text-align: center;
+
+    .feedback__icon {}
+    .feedback__description {
+      margin: 29px 0 0 0;
+    }
+    .feedback__author {
+      margin: 24px 0 35px 0;
+    }
+    .feedback__contact-list {}
+    .contact-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .contact-list__item {
+
+        &:not(:last-child) {
+          margin: 0 27px 0 0;
+        }
+        .contact-list__link {}
+      }
+    }
+  }
+}
+@media (max-width: 392px) {
+  .page__feedback {}
+  .feedback {
+
+    .feedback__container {
+
+      .feedback__icon {}
+      .feedback__description {}
+      .feedback__author {}
+      .feedback__contact-list {}
+      .contact-list {
+
+        .contact-list__item {
+
+          &:not(:last-child) {
+            margin: 0 10px 0 0;
+          }
+          .contact-list__link {}
+        }
+      }
+    }
+  }
+}
